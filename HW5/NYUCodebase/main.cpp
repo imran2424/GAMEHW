@@ -114,7 +114,7 @@ void SheetSprite::Draw(ShaderProgram *program) {
 class Vector{
 public:
 	Vector(){};
-	Vector(float x, float y, float z) :x(0), y(0), z(0){}
+	Vector(float x, float y, float z) :x(x), y(y), z(z){}
 	float x;
 	float y;
 	float z;
@@ -378,94 +378,93 @@ int main(int argc, char *argv[])
 		entity4.push_back(p3);
 		entity4.push_back(p4);
 
-		for (int i = 0; i < 4; ++i){
-			int maxChecks = 10;
-			while (checkSATCollision(entity1, entity2) && maxChecks > 0) {
-				Vector responseVector = Vector(entity1[i].x - entity2[i].x, entity1[i].y - entity2[i].y, 0.0);
-				responseVector.normalize();
-				rock.pos.x -= responseVector.x * 0.002;
-				rock.pos.y -= responseVector.y * 0.002;
 
-				rockV.pos.x += responseVector.x * 0.002;
-				rockV.pos.x += responseVector.x * 0.002;
+		int maxChecks = 10;
+		while (checkSATCollision(entity1, entity2) && maxChecks > 0) {
+			Vector responseVector = Vector(rock.pos.x - rockV.pos.x, rock.pos.y - rockV.pos.y, 0.0);
+			responseVector.normalize();
+			rock.pos.x -= responseVector.x * 0.002;
+			rock.pos.y -= responseVector.y * 0.002;
 
-				maxChecks -= 1;
-			}
+			rockV.pos.x += responseVector.x * 0.002;
+			rockV.pos.y += responseVector.x * 0.002;
+
+			maxChecks -= 1;
 		}
 
-		for (int i = 0; i < 4; ++i){
-			int maxChecks = 10;
-			while (checkSATCollision(entity1, entity3) && maxChecks > 0) {
-				Vector responseVector = Vector(entity1[i].x - entity3[i].x, entity1[i].y - entity3[i].y, 0.0);
-				responseVector.normalize();
-				rock.pos.x -= responseVector.x * 0.002;
-				rock.pos.y -= responseVector.y * 0.002;
 
-				enem.pos.x += responseVector.x * 0.002;
-				enem.pos.x += responseVector.x * 0.002;
 
-				maxChecks -= 1;
-			}
+		maxChecks = 10;
+		while (checkSATCollision(entity1, entity3) && maxChecks > 0) {
+			Vector responseVector = Vector(rock.pos.x - enem.pos.x, rock.pos.y - enem.pos.y, 0.0);
+			responseVector.normalize();
+			rock.pos.x -= responseVector.x * 0.002;
+			rock.pos.y -= responseVector.y * 0.002;
+
+			enem.pos.x += responseVector.x * 0.002;
+			enem.pos.y += responseVector.x * 0.002;
+
+			maxChecks -= 1;
 		}
 
-		for (int i = 0; i < 4; ++i){
-			int maxChecks = 10;
-			while (checkSATCollision(entity1, entity4) && maxChecks > 0) {
-				Vector responseVector = Vector(entity1[i].x - entity4[i].x, entity1[i].y - entity4[i].y, 0.0);
-				responseVector.normalize();
-				rock.pos.x -= responseVector.x * 0.002;
-				rock.pos.y -= responseVector.y * 0.002;
 
-				p.pos.x += responseVector.x * 0.002;
-				p.pos.x += responseVector.x * 0.002;
 
-				maxChecks -= 1;
-			}
+		maxChecks = 10;
+		while (checkSATCollision(entity1, entity4) && maxChecks > 0) {
+			Vector responseVector = Vector(rock.pos.x - p.pos.x, rock.pos.y - p.pos.y, 0.0);
+			responseVector.normalize();
+			rock.pos.x -= responseVector.x * 0.002;
+			rock.pos.y -= responseVector.y * 0.002;
+
+			p.pos.x += responseVector.x * 0.002;
+			p.pos.y += responseVector.x * 0.002;
+
+			maxChecks -= 1;
 		}
 
-		for (int i = 0; i < 4; ++i){
-			int maxChecks = 10;
-			while (checkSATCollision(entity2, entity3) && maxChecks > 0) {
-				Vector responseVector = Vector(entity2[i].x - entity3[i].x, entity2[i].y - entity3[i].y, 0.0);
-				responseVector.normalize();
-				rockV.pos.x -= responseVector.x * 0.002;
-				rockV.pos.y -= responseVector.y * 0.002;
 
-				enem.pos.x += responseVector.x * 0.002;
-				enem.pos.x += responseVector.x * 0.002;
 
-				maxChecks -= 1;
-			}
+		maxChecks = 10;
+		while (checkSATCollision(entity2, entity3) && maxChecks > 0) {
+			Vector responseVector = Vector(rockV.pos.x - enem.pos.x, rockV.pos.y - enem.pos.y, 0.0);
+			responseVector.normalize();
+			rockV.pos.x -= responseVector.x * 0.002;
+			rockV.pos.y -= responseVector.y * 0.002;
+
+			enem.pos.x += responseVector.x * 0.002;
+			enem.pos.y += responseVector.x * 0.002;
+
+			maxChecks -= 1;
 		}
 
-		for (int i = 0; i < 4; ++i){
-			int maxChecks = 10;
-			while (checkSATCollision(entity2, entity4) && maxChecks > 0) {
-				Vector responseVector = Vector(entity2[i].x - entity4[i].x, entity2[i].y - entity4[i].y, 0.0);
-				responseVector.normalize();
-				rockV.pos.x -= responseVector.x * 0.002;
-				rockV.pos.y -= responseVector.y * 0.002;
 
-				p.pos.x += responseVector.x * 0.002;
-				p.pos.x += responseVector.x * 0.002;
 
-				maxChecks -= 1;
-			}
+		maxChecks = 10;
+		while (checkSATCollision(entity2, entity4) && maxChecks > 0) {
+			Vector responseVector = Vector(rockV.pos.x - p.pos.x, rockV.pos.y - p.pos.y, 0.0);
+			responseVector.normalize();
+			rockV.pos.x -= responseVector.x * 0.002;
+			rockV.pos.y -= responseVector.y * 0.002;
+
+			p.pos.x += responseVector.x * 0.002;
+			p.pos.y += responseVector.x * 0.002;
+
+			maxChecks -= 1;
 		}
 
-		for (int i = 0; i < 4; ++i){
-			int maxChecks = 10;
-			while (checkSATCollision(entity3, entity4) && maxChecks > 0) {
-				Vector responseVector = Vector(entity3[i].x - entity4[i].x, entity3[i].y - entity4[i].y, 0.0);
-				responseVector.normalize();
-				enem.pos.x -= responseVector.x * 0.002;
-				enem.pos.y -= responseVector.y * 0.002;
 
-				p.pos.x += responseVector.x * 0.002;
-				p.pos.x += responseVector.x * 0.002;
 
-				maxChecks -= 1;
-			}
+		maxChecks = 10;
+		while (checkSATCollision(entity3, entity4) && maxChecks > 0) {
+			Vector responseVector = Vector(enem.pos.x - p.pos.x, enem.pos.y - p.pos.y, 0.0);
+			responseVector.normalize();
+			enem.pos.x -= responseVector.x * 0.002;
+			enem.pos.y -= responseVector.y * 0.002;
+
+			p.pos.x += responseVector.x * 0.002;
+			p.pos.y += responseVector.x * 0.002;
+
+			maxChecks -= 1;
 		}
 
 		SDL_GL_SwapWindow(displayWindow);

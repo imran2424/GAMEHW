@@ -1,0 +1,87 @@
+﻿Build started 12/12/2016 8:10:46 PM.
+     1>Project "C:\Users\Imran\Documents\GitHub\NYUCodebase\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDL2\include /IC:\SDL2_image\include /IC:\glew\include /IC:\SDL2_mixer\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDOWS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(316): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(321): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(326): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(331): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(336): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(337): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(345): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(350): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(355): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(360): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(365): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(370): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(375): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(380): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(385): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(390): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(395): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(400): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(405): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(406): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(412): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(419): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(420): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(444): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(449): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(457): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(479): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(506): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(511): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(516): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(524): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(533): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(559): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(566): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(567): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(569): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(575): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(582): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(585): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(594): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(595): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(602): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(616): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(641): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(648): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(649): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(651): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(657): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(664): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(667): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(676): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(677): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(684): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(698): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(724): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(731): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(732): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(734): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(740): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(747): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(750): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(759): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(760): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(767): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\imran\documents\github\nyucodebase\nyucodebase\main.cpp(782): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Imran\Documents\GitHub\NYUCodebase\Debug\NYUCodebase.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDL2_mixer\lib\x86 /LIBPATH:C:\SDL2\lib\x86 /LIBPATH:C:\SDL2_image\lib\x86 /LIBPATH:C:\glew\lib\Release\Win32 SDL2.lib SDL2_mixer.lib glew32.lib SDL2main.lib SDL2_image.lib OpenGL32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Imran\Documents\GitHub\NYUCodebase\Debug\NYUCodebase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Imran\Documents\GitHub\NYUCodebase\Debug\NYUCodebase.lib" /MACHINE:X86 Debug\bullet.obj
+         Debug\Entity.obj
+         Debug\Game.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\Matrix.obj
+         Debug\Particle.obj
+         Debug\ShaderProgram.obj
+         Debug\SheetSprite.obj
+         NYUCodebase.vcxproj -> C:\Users\Imran\Documents\GitHub\NYUCodebase\Debug\NYUCodebase.exe
+     1>Done Building Project "C:\Users\Imran\Documents\GitHub\NYUCodebase\NYUCodebase\NYUCodebase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.74
